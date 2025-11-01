@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2a25c6b5ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar & Heading -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="menu-toggle">
+            <button id="menu-toggles" onclick="toggleMenu()">☰</button>
+          </div>
+          <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-text">
+        <p>Learning WebDev</p>
+        <h1>
+          Hi, I'm <span>Murtaza<br />Naqvi </span>from Pakistan
+        </h1>
+      </div>
+    </div>
+    <!-- About Me -->
+    <div id="about">
+      <div class="about-container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            />
+          </div>
+          <div class="about-col-2">
+            <h2 class="underline-about-me">About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+              reiciendis nemo beatae voluptates hic assumenda error commodi a
+              sit dolores, facilis culpa placeat. Libero nobis corrupti debitis
+              eveniet hic voluptatum! Expedita possimus molestias doloribus
+              laudantium odit asperiores, voluptates aliquam incidunt.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tabs" id="skills">
+              <ul>
+                <li>
+                  <span>Content Writer</span><br />Writing Various Contents
+                </li>
+                <li>
+                  <span>Learning Web Dev</span><br />Practising CSS And HTML
+                </li>
+                <li>
+                  <span>Proofreading</span><br />Reviewing various Documents
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024 - current</span><br />Nothing Done</li>
+                <li><span>2022 - 2024</span><br />Nothing Done</li>
+                <li><span>2006 - 2022</span><br />Nothing Done</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Current</span><br />Completing Bachelors from UCP(3rd
+                  Semester)
+                </li>
+                <li>
+                  <span>2024</span><br />Completed Intermediatte In Lahore BOARD
+                </li>
+                <li><span>2022</span><br />Completed Matric in Lahore BOARD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+      <div class="services-container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Dev</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              odio et eius explicabo debitis, doloremque quibusdam animi
+              ratione. Voluptatum, eos.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Content Writing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              odio et eius explicabo debitis, doloremque quibusdam animi
+              ratione. Voluptatum, eos.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-file"></i>
+            <h2>Proofreading</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              odio et eius explicabo debitis, doloremque quibusdam animi
+              ratione. Voluptatum, eos.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <div class="portfolio-container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=360/uploads/users/1223/posts/38084/image-upload/Kayden.jpg"
+            />
+            <div class="layer">
+              <h3>Web Design</h3>
+              <p>
+                A Well Designed Personal Portfolio Page for a Client done with
+                extreme precision and sophistication
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.examples.com/wp-content/uploads/2017/05/Newspaper-Article-Writing2.jpg"
+            />
+            <div class="layer">
+              <h3>Written Article</h3>
+              <p>
+                A Newspaper Article written about the Game between Saint Michael
+                and St. Leo that was too close
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34247039/files/featured/What_is_Proofreading.jpg"
+            />
+            <div class="layer">
+              <h3>Homework Proofread</h3>
+              <p>
+                Reviewing the homework of a child so that they may analyze their
+                mistake and not make it in the future
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="" class="btn">See more</a>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+      <div class="contact-container">
+        <div class="contact-row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="btn-wrap">
+              <a href="" download class="btn">Download CV</a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="example@gmail.com"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="Submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button-wrappper">
+      <button class="fancy-button">
+        <div class="fancy-label">
+          Submit<i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+        <div class="fancy-icon"></div>
+      </button>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tabs");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tabs");
+
+        function toggleMenu() {
+          const navLinks = document.getElementById("nav-links");
+          navLinks.classList.toggle("active");
+        }
+      }
+    </script>
+  </body>
+</html>
